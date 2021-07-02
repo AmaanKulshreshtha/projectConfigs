@@ -2,8 +2,7 @@ module.exports = {
   root: true,
   extends: [
     'airbnb-base',
-    'plugin:import/errors',
-    'plugin:import/warnings',
+    'plugin:import/recommended',
     'plugin:import/typescript',
     'plugin:prettier/recommended',
     '@react-native-community'
