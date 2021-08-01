@@ -1,15 +1,18 @@
 # List of things during a project setup
 
-## List of dev dependencies
+## List of Dependencies
 
 ### React Native - TS variant
 
-- Project Setup
+- Development Dependencies
 ```bash
-yarn add @babel/core @babel/runtime @react-native-community/eslint-config @types/jest @types/react-native @types/react-test-renderer @typescript-eslint/parser babel-jest eslint eslint-config-airbnb-base eslint-import-resolver-typescript eslint-plugin-import jest metro-react-native-babel-preset react-test-renderer typescript -D
+yarn add @babel/core @babel/runtime @types/jest @types/react-native @types/react-test-renderer babel-jest jest metro-react-native-babel-preset react-test-renderer typescript -D
 ```
 
-## List of dependencies
+- Linting Dependencies
+```bash
+yarn add  @react-native-community/eslint-config  @typescript-eslint/parser eslint eslint-config-airbnb-base eslint-import-resolver-typescript eslint-plugin-import -D
+```
 
 ### React Native - TS variant
 
